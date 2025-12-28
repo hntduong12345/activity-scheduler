@@ -273,7 +273,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👥 Authors
 
-**HntDuong** – [@hntduong2003](https://github.com/hntduong12345)
+**HntDuong** – [@hntduong12345](https://github.com/hntduong12345)
 
 ---
 
