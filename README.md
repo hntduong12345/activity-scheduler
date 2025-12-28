@@ -1,126 +1,137 @@
-🚀 Activity Planner Pro
+# 🚀 Activity Planner Pro
 
+<div align="center">
 
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge\&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge\&logo=typescript)
+![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green?style=for-the-badge\&logo=mongodb)
+![Gemini AI](https://img.shields.io/badge/Gemini-AI-8A2BE2?style=for-the-badge\&logo=google)
 
+**Smart scheduling meets AI-powered productivity**
 
-Smart scheduling meets AI-powered productivity
+[Live Demo](#) • [Report Bug](https://github.com/yourusername/activity-planner-pro/issues) • [Request Feature](https://github.com/yourusername/activity-planner-pro/issues)
 
-Live Demo • Report Bug • Request Feature
+![Dashboard Preview](https://via.placeholder.com/800x400/1e293b/ffffff?text=Activity+Planner+Pro+Dashboard)
 
+</div>
 
+---
 
+## ✨ Features
 
-✨ Features
-🎯 Core Functionality
+### 🎯 Core Functionality
 
-Interactive Weekly Calendar – Drag & drop scheduling
+* **Interactive Weekly Calendar** – Drag & drop scheduling
+* **Real-time Analytics Dashboard** – Track productivity metrics
+* **AI-Powered Recommendations** – Get smart schedule optimizations
+* **Dark/Light Mode** – Eye-friendly themes
 
-Real-time Analytics Dashboard – Track productivity metrics
+### 📊 Dashboard Insights
 
-AI-Powered Recommendations – Get smart schedule optimizations
+* Activity completion rates
+* Time distribution by category
+* Weekly progress visualization
+* AI-generated improvement tips
 
-Dark/Light Mode – Eye-friendly themes
+### 🔒 Security & Performance
 
-📊 Dashboard Insights
+* JWT authentication with refresh tokens
+* Lighthouse score > 90 optimized
+* Fully responsive design
+* WCAG 2.1 AA accessible
 
-Activity completion rates
+---
 
-Time distribution by category
+## 🛠️ Tech Stack
 
-Weekly progress visualization
+### Frontend
 
-AI-generated improvement tips
+* Next.js 14 (App Router)
+* TypeScript
+* Tailwind CSS
+* shadcn/ui components
+* Recharts for visualizations
+* dnd-kit for drag & drop
 
-🔒 Security & Performance
+### Backend
 
-JWT authentication with refresh tokens
+* Node.js + Express.js
+* MongoDB + Mongoose
+* JWT authentication
+* RESTful API design
 
-Lighthouse score > 90 optimized
+### AI Integration
 
-Fully responsive design
+* Google Gemini 1.5 Flash
+* Real-time schedule analysis
+* JSON-structured responses
 
-WCAG 2.1 AA accessible
+---
 
-🛠️ Tech Stack
-Frontend
+## 🚀 Quick Start
 
-Next.js 14 (App Router)
+### Prerequisites
 
-TypeScript
+* Node.js 18+
+* MongoDB running locally
+* Google Gemini API key
 
-Tailwind CSS
+### Installation
 
-shadcn/ui components
-
-Recharts for visualizations
-
-dnd-kit for drag & drop
-
-Backend
-
-Node.js + Express.js
-
-MongoDB + Mongoose
-
-JWT authentication
-
-RESTful API design
-
-AI Integration
-
-Google Gemini 1.5 Flash
-
-Real-time schedule analysis
-
-JSON-structured responses
-
-🚀 Quick Start
-Prerequisites
-
-Node.js 18+
-
-MongoDB running locally
-
-Google Gemini API key
-
-Installation
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/activity-planner-pro.git
-
 
 # Navigate to project
 cd activity-planner-pro
 
-
 # Install dependencies
 npm install
-⚙️ Environment Setup
-Backend Configuration
+```
+
+---
+
+## ⚙️ Environment Setup
+
+### Backend Configuration
+
+```bash
 cd backend
 cp .env.example .env
+```
 
-Edit .env:
+Edit `.env`:
 
+```env
 MONGODB_URI=mongodb://localhost:27017/activity-planner
 GEMINI_API_KEY=your_gemini_api_key_here
 JWT_SECRET=your_jwt_secret_here
-▶️ Running the Application
+```
+
+---
+
+## ▶️ Running the Application
+
+```bash
 # Development (both frontend & backend)
 npm run dev
-
 
 # Frontend only
 cd frontend && npm run dev
 
-
 # Backend only
 cd backend && npm run dev
-
 
 # Production build
 npm run build
 npm start
-📁 Project Structure
+```
+
+---
+
+## 📁 Project Structure
+
+```text
 activity-planner-pro/
 ├── frontend/
 │   ├── app/                 # Next.js app router
@@ -135,123 +146,152 @@ activity-planner-pro/
 │   │   └── middleware/      # Auth & validation
 │   └── .env                 # Environment variables
 └── package.json             # Workspace configuration
-📖 Usage Guide
-1. First Time Setup
+```
 
-Register a new account
+---
 
-Set your preferences in Settings
+## 📖 Usage Guide
 
-Start adding activities to your schedule
+### 1. First Time Setup
 
-2. Creating Activities
+* Register a new account
+* Set your preferences in **Settings**
+* Start adding activities to your schedule
 
-Click "+ Add Activity" in the Schedule page
+### 2. Creating Activities
 
-Set title, category, duration, and priority
+* Click **"+ Add Activity"** in the Schedule page
+* Set title, category, duration, and priority
+* Drag activities between days to reschedule
 
-Drag activities between days to reschedule
+### 3. AI Recommendations
 
-3. AI Recommendations
-
-Navigate to Dashboard
-
-Click "Get AI Recommendations"
-
-Review suggestions and apply as needed
+* Navigate to **Dashboard**
+* Click **"Get AI Recommendations"**
+* Review suggestions and apply as needed
 
 AI analyzes your schedule for balance and efficiency.
 
-4. Tracking Progress
+### 4. Tracking Progress
 
-View completion rates in Dashboard
+* View completion rates in Dashboard
+* Check category distribution
+* Monitor weekly trends
+* Export schedule data
 
-Check category distribution
+---
 
-Monitor weekly trends
+## 🧪 Testing
 
-Export schedule data
-
-🧪 Testing
+```bash
 # Run unit tests
 npm test
-
 
 # Run specific test suites
 npm test -- --testPathPattern=backend
 npm test -- --testPathPattern=frontend
 
-
 # Test coverage
 npm run test:coverage
-🔧 API Documentation
-Authentication
+```
+
+---
+
+## 🔧 API Documentation
+
+### Authentication
+
+```http
 POST /api/auth/register
 POST /api/auth/login
 POST /api/auth/refresh
 POST /api/auth/logout
-Activities
+```
+
+### Activities
+
+```http
 GET    /api/activities         # List all activities
 POST   /api/activities         # Create activity
 PUT    /api/activities/:id     # Update activity
 DELETE /api/activities/:id     # Delete activity
-AI Recommendations
+```
+
+### AI Recommendations
+
+```http
 POST /api/ai/recommendations   # Get schedule suggestions
-🌐 Deployment
-Vercel (Recommended)
+```
+
+---
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+
+```bash
 npm i -g vercel
 vercel
-Docker
+```
+
+### Docker
+
+```dockerfile
 # Build image
 docker build -t activity-planner .
 
-
 # Run container
 docker run -p 3000:3000 -p 5000:5000 activity-planner
-🤝 Contributing
+```
+
+---
+
+## 🤝 Contributing
 
 We love contributions! 🚀
 
-Fork the project
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+### Development Guidelines
 
-Commit changes (git commit -m 'Add AmazingFeature')
+* Follow TypeScript strict mode
+* Write unit tests for new features
+* Maintain accessibility standards
+* Use conventional commits
 
-Push to branch (git push origin feature/AmazingFeature)
+---
 
-Open a Pull Request
+## 📄 License
 
-Development Guidelines
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Follow TypeScript strict mode
+---
 
-Write unit tests for new features
+## 👥 Authors
 
-Maintain accessibility standards
+**Your Name** – [@yourusername](https://github.com/yourusername)
 
-Use conventional commits
+---
 
-📄 License
+## 🙏 Acknowledgments
 
-Distributed under the MIT License. See LICENSE for more information.
+* Google Gemini API
+* Next.js Documentation
+* shadcn/ui Components
+* Tailwind CSS
 
-👥 Authors
+---
 
-Your Name – @yourusername
+<div align="center">
 
-🙏 Acknowledgments
-
-Google Gemini API
-
-Next.js Documentation
-
-shadcn/ui Components
-
-Tailwind CSS
-
-⭐️ Support the Project
+### ⭐️ Support the Project
 
 If you find this useful, please give it a star on GitHub!
 
-https://api.star-history.com/svg?repos=yourusername/activity-planner-pro&type=Date
+[https://api.star-history.com/svg?repos=yourusername/activity-planner-pro&type=Date](https://api.star-history.com/svg?repos=yourusername/activity-planner-pro&type=Date)
+
+</div>
