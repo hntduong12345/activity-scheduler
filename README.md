@@ -273,7 +273,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👥 Authors
 
-**HntDuong** – [@yourusername](https://github.com/hntduong12345)
+**HntDuong** – [@hntduong2003](https://github.com/hntduong12345)
 
 ---
 
@@ -292,6 +292,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 If you find this useful, please give it a star on GitHub!
 
-[https://api.star-history.com/svg?repos=yourusername/activity-planner-pro&type=Date](https://api.star-history.com/svg?repos=hntduong12345/activity-planner-pro&type=Date)
+[https://api.star-history.com/svg?repos=hntduong12345/activity-scheduler&type=Date](https://api.star-history.com/svg?repos=hntduong12345/activity-scheduler&type=Date)
 
 </div>
