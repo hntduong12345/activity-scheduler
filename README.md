@@ -9,7 +9,7 @@
 
 **Smart scheduling meets AI-powered productivity**
 
-[Live Demo](#) • [Report Bug](https://github.com/yourusername/activity-planner-pro/issues) • [Request Feature](https://github.com/yourusername/activity-planner-pro/issues)
+[Live Demo](#) • [Report Bug](https://github.com/hntduong12345/activity-scheduler/issues) • [Request Feature](https://github.com/hntduong12345/activity-scheduler/issues)
 
 ![Dashboard Preview](https://via.placeholder.com/800x400/1e293b/ffffff?text=Activity+Planner+Pro+Dashboard)
 
@@ -80,7 +80,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/activity-planner-pro.git
+git clone https://github.com/hntduong12345/activity-scheduler.git
 
 # Navigate to project
 cd activity-planner-pro
@@ -273,7 +273,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👥 Authors
 
-**Your Name** – [@yourusername](https://github.com/yourusername)
+**HntDuong** – [@yourusername](https://github.com/hntduong12345)
 
 ---
 
@@ -292,6 +292,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 If you find this useful, please give it a star on GitHub!
 
-[https://api.star-history.com/svg?repos=yourusername/activity-planner-pro&type=Date](https://api.star-history.com/svg?repos=yourusername/activity-planner-pro&type=Date)
+[https://api.star-history.com/svg?repos=yourusername/activity-planner-pro&type=Date](https://api.star-history.com/svg?repos=hntduong12345/activity-planner-pro&type=Date)
 
 </div>
